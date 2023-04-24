@@ -5,10 +5,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: Inter;
  }
 
- /* Links Styles */
+ /* Anchor Styles */
  a {
    text-decoration: none;
    color: unset;
@@ -25,7 +25,9 @@
    align-items: center;
    height: 85px;
    padding: 0px 80px;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   border-bottom: 1px solid #ed145b;
+   border-bottom-left-radius: 32px;
+   border-bottom-right-radius: 32px;
  }
 
  header .brand h2 {
