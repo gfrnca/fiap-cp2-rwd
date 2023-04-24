@@ -23,12 +23,22 @@
    padding: 0px 80px;
  }
 
+ .brand {
+   font-weight: 700;
+   cursor: pointer;
+ }
+
  nav ul {
    display: flex;
    flex-direction: row;
-   gap: 15px;
+   gap: 30px;
  }
 
  nav ul li {
    list-style: none;
+   transition: 0.1s all;
+ }
+
+ nav ul li:hover {
+   color: #1f7bf2;
  }
