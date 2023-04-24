@@ -5,4 +5,30 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial;
+ }
+
+ /* Links Styles */
+ a {
+   text-decoration: none;
+   color: unset;
+ }
+
+ /* Header */
+ header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 85px;
+   padding: 0px 80px;
+ }
+
+ nav ul {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+ }
+
+ nav ul li {
+   list-style: none;
  }
