@@ -14,6 +14,10 @@
    color: unset;
  }
 
+ body {
+   min-height: 100vh;
+ }
+
  /* Header */
  header {
    display: flex;
@@ -21,14 +25,29 @@
    align-items: center;
    height: 85px;
    padding: 0px 80px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+
+ header .brand h2 {
+   font-weight: 700;
+   cursor: pointer;
+ }
+
+ header .brand h2 strong {
+   color: #1f7bf2;
  }
 
  nav ul {
    display: flex;
    flex-direction: row;
-   gap: 15px;
+   gap: 30px;
  }
 
  nav ul li {
    list-style: none;
+   transition: 0.1s all;
+ }
+
+ nav ul li:hover {
+   color: #1f7bf2;
  }
