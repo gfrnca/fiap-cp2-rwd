@@ -23,7 +23,7 @@
  }
 
  /* Header */
- header {
+ .cabecalho {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -35,17 +35,17 @@
    margin-bottom: 60px;
  }
 
- header .brand h2 {
+ .cabecalho .brand h2 {
    font-weight: 700;
    font-size: 20px;
    cursor: pointer;
  }
 
- header .brand h2 strong {
+ .cabecalho .brand h2 strong {
    color: #ed145b;
  }
 
- header .brand h2 span {
+ .cabecalho .brand h2 span {
    font-weight: 200;
  }
 
