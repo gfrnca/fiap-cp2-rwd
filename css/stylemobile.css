@@ -1,28 +1,25 @@
-/* Index Styles */
+/* Daniel Soares rm552184*/
 
-/* Global Reset */
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Inter;
-  }
+}
 
-  /* Anchor Styles */
 a {
     text-decoration: none;
     color: unset;
    }
    
-   body {
+    
+body {
     min-height: 100vh;
    }
    
    main {
     padding: 0px 80px;
    }
-
-/* Header */
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -45,12 +42,11 @@ a {
     list-style: none;
     transition: 0.1s all;
    }
-   
+  
    nav ul li:hover {
     color: #ed145b;
    }
 
-/* Main */
 section {
     display: flex;
     flex-direction: row;
@@ -60,16 +56,3 @@ section {
     gap: 100px;
    }
 
-   article .article-title {
-    font-size: 20px;
-    color: #ed145b;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-   }
-   
-   
-   article figure img {
-    width: 100%;
-    border-radius: 8px;
-   }

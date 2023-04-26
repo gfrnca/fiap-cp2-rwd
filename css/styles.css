@@ -112,3 +112,15 @@ body {
   height: 200px;
   background: #e8e8e8;
  }
+
+
+.main-games{
+  display: flex;
+  justify-content:end;
+}
+
+.section-games{
+  display: flex;
+  justify-content: center;
+}
+
