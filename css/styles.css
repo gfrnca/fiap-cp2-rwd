@@ -74,14 +74,14 @@
    gap: 100px;
  }
 
- article {
+ div {
    max-width: 300px;
    padding: 15px;
    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
    border-radius: 8px;
  }
 
- article .article-title {
+ div .article-title {
    font-size: 20px;
    color: #ed145b;
    letter-spacing: 8px;
@@ -89,17 +89,17 @@
    margin-bottom: 10px;
  }
 
- article figure {
+ div figure {
 
  }
 
- article figure img {
+ div figure img {
    width: 100%;
    border-radius: 8px;
    
  }
 
- article figure figcaption {
+ div figure figcaption {
    text-align: justify;
    margin-top: 8px;
  }
