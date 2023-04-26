@@ -111,6 +111,19 @@ body {
   font-size: 5rem;
  }
 
+
+.main-games{
+  display: flex;
+  justify-content:end;
 }
+
+.section-games{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 
 
