@@ -103,3 +103,10 @@
    text-align: justify;
    margin-top: 8px;
  }
+
+.rodape{
+  text-align: center;
+}
+ .rodape a i {
+  font-size: 5rem;
+ }
