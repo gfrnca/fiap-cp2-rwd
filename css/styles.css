@@ -19,6 +19,7 @@ body {
 }
 
  main {
+   min-height: calc(100vh - 85px);
    padding: 0px 80px;
  }
 
@@ -104,11 +105,12 @@ body {
    margin-top: 8px;
  }
 
-.rodape{
-  text-align: center;
-}
- .rodape a i {
-  font-size: 5rem;
+ /* Footer */
+ footer {
+  padding: 20px 80px;
+  width: 100%;
+  height: 200px;
+  background: #e8e8e8;
  }
 
 
@@ -121,9 +123,4 @@ body {
   display: flex;
   justify-content: center;
 }
-
-
-
-
-
 
