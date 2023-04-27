@@ -30,16 +30,12 @@ body {
    align-items: center;
    height: 85px;
    padding: 0px 80px;
-   border-bottom: 1px solid #ed145b;
-   border-bottom-left-radius: 32px;
-   border-bottom-right-radius: 32px;
    margin-bottom: 60px;
  }
 
- .cabecalho .brand h2 {
-   font-weight: 700;
-   font-size: 20px;
-   cursor: pointer;
+ .cabecalho .brand img {
+    width: 180px;
+    cursor: pointer;
  }
 
  .cabecalho .brand h2 strong {
