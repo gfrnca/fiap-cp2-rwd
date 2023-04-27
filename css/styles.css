@@ -116,6 +116,7 @@ article button {
   background: #ed145b;
   color: white;
   font-weight: 600;
+  font-size: 15px;
   width: 100%;
   position: relative;
   display: flex;
@@ -127,13 +128,10 @@ article button {
 
 .icon {
   position: absolute;
-  right: 10px;
+  right: 7px;
   border-radius: 4px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   background: #70092b;
-}
-
-article button i {
 }
 
 /* Footer */
