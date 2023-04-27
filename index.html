@@ -1,66 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet" />
 
     <title>Checkpoint 2</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="brand">
-            <h2>FI<strong>A</strong>P <span>GAMES</span></h2>
-        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/9e8d4d769a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="brand">
+        <img src="./img/logo.svg" alt="fiap games" />
+      </div>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Página principal</a>    
-                </li>
-                <li>
-                    <a href="#">Games</a>    
-                </li>
-                <li>
-                    <a href="#">Mobile</a>    
-                </li>
-                <li>
-                    <a href="#">Tecnologia</a>    
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Página principal</a>
+          </li>
+          <li>
+            <a href="/pages/games.html">Games</a>
+          </li>
+          <li>
+            <a href="/pages/mobile.html">Mobile</a>
+          </li>
+          <li>
+            <a href="/pages/tecnologia.html">Tecnologia</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section>
-            <article>
-                <h2 class="article-title">Games</h2>
-                <figure>
-                    <img src="./img/mobile.jpg" alt="Mobile">
-                    <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, incidunt!</figcaption>
-                </figure>
-            </article>
-            <article>
-                <h2 class="article-title">Mobile</h2>
-                <figure>
-                    <img width="240px" src="./img/mobile.jpg" alt="Mobile">
-                    <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, incidunt!</figcaption>
-                </figure>
-            </article>
-            <article>
-                <h2 class="article-title">Tecnologia</h2>
-                <figure>
-                    <img width="240px" src="./img/mobile.jpg" alt="Mobile">
-                    <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, incidunt!</figcaption>
-                </figure>
-            </article>
-        </section>
+      <section>
+        <article>
+          <h2 class="article-title">Games</h2>
+          <figure>
+            <img src="./img/games.jpg" alt="Mobile" />
+            <figcaption>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+              incidunt!
+            </figcaption>
+          </figure>
+
+          <a href="/pages/games.html">
+            <button>
+              VER MAIS
+              <div class="icon"><i class="fa-solid fa-arrow-right"></i></div>
+            </button>
+          </a>
+        </article>
+        <article>
+          <h2 class="article-title">Mobile</h2>
+          <figure>
+            <img src="./img/mobile.jpg" alt="Mobile" />
+            <figcaption>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+              incidunt!
+            </figcaption>
+          </figure>
+
+          <a href="/pages/mobile.html">
+            <button>
+              VER MAIS
+              <div class="icon"><i class="fa-solid fa-arrow-right"></i></div>
+            </button>
+          </a>
+        </article>
+        <article>
+          <h2 class="article-title">Tecnologia</h2>
+          <figure>
+            <img src="./img/tecnologia.jpg" alt="Mobile" />
+            <figcaption>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+              incidunt!
+            </figcaption>
+          </figure>
+
+          <a href="/pages/tecnologia.html">
+            <button>
+              VER MAIS
+              <div class="icon"><i class="fa-solid fa-arrow-right"></i></div>
+            </button>
+          </a>
+        </article>
+      </section>
     </main>
-</body>
+
+    <footer class="rodape">
+      <div class="brand">
+        <img src="./img/logo.svg" alt="fiap games" />
+
+        <nav class="social">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        </nav>
+      </div>
+      <div class="navigation">
+        <nav class="shortcut">
+          <h3>Acesso rápido</h3>
+          <ul>
+            <a href="#">
+              <li>Página principal</li>
+            </a>
+            <a href="/pages/games.html">
+              <li>Games</li>
+            </a>
+            <a href="/pages/mobile.html">
+              <li>Mobile</li>
+            </a>
+            <a href="/pages/tecnologia.html">
+              <li>Tecnologia</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
