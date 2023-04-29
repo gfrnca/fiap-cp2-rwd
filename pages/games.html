@@ -12,15 +12,37 @@
     ></script>
   </head>
   <body>
-    <header class="cabecalho">
+    <header class="header">
       <div class="brand">
         <a href="/index.html">
           <img src="../img/logo.png" alt="FIAP GAMES" />
         </a>
       </div>
 
-      <nav>
-        <ul>
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line"></span
+      ></label>
+
+      <nav class="desktop-nav">
+        <ul class="desktop">
+          <li>
+            <a href="../index.html">Página principal</a>
+          </li>
+          <li>
+            <a href="./games.html">Games</a>
+          </li>
+          <li>
+            <a href="./mobile.html">Mobile</a>
+          </li>
+          <li>
+            <a href="./tecnologia.html">Tecnologia</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="menu-nav">
+        <ul class="menu">
           <li>
             <a href="../index.html">Página principal</a>
           </li>
@@ -38,20 +60,17 @@
     </header>
 
     <main>
-      <section class="section-games">
-        <div class="main-games">
-          <h2 class="article-title">Games</h2>
-          <figure>
-            <img width="240px" src="../img/games.jpg" alt="Mobile" />
-            <p>
-              Os jogos eletrônicos, mais conhecidos como games, se tornaram uma
-              forma popular de entretenimento em todo o mundo. Eles podem ser
-              jogados em consoles, computadores, smartphones e tablets,
-              proporcionando aos jogadores experiências imersivas e desafiadoras
-            </p>
-            <figcaption></figcaption>
-          </figure>
-        </div>
+      <section class="content">
+        <h2 class="article-title">Games</h2>
+        <figure>
+          <figcaption>
+            Os jogos eletrônicos, mais conhecidos como games, se tornaram uma
+            forma popular de entretenimento em todo o mundo. Eles podem ser
+            jogados em consoles, computadores, smartphones e tablets,
+            proporcionando aos jogadores experiências imersivas e desafiadoras
+          </figcaption>
+          <img width="500px" src="../img/games.jpg" alt="Mobile" />
+        </figure>
       </section>
     </main>
 
@@ -69,10 +88,10 @@
         <nav class="shortcut">
           <h3>Acesso rápido</h3>
           <ul>
-            <a href="/index.html">
+            <a href="../index.html">
               <li>Página principal</li>
             </a>
-            <a href="/pages/games.html">
+            <a href="./games.html">
               <li>Games</li>
             </a>
             <a href="/pages/mobile.html">

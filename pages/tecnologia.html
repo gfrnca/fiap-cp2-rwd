@@ -23,37 +23,57 @@
   <body>
 </head>
 <body>
-    <header class="cabecalho">
-      <div class="brand">
-        <a href="/index.html">
-          <img src="../img/logo.png" alt="FIAP GAMES" />
-        </a>
-      </div>
+  <header class="header">
+    <div class="brand">
+      <a href="/index.html">
+        <img src="../img/logo.png" alt="FIAP GAMES" />
+      </a>
+    </div>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="/index.html">Página principal</a>
-          </li>
-          <li>
-            <a href="/pages/games.html">Games</a>
-          </li>
-          <li>
-            <a href="/pages/mobile.html">Mobile</a>
-          </li>
-          <li>
-            <a href="/pages/tecnologia.html">Tecnologia</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <input class="side-menu" type="checkbox" id="side-menu" />
+    <label class="hamb" for="side-menu"
+      ><span class="hamb-line"></span
+    ></label>
+    <nav class="desktop-nav">
+      <ul class="desktop">
+        <li>
+          <a href="../index.html">Página principal</a>
+        </li>
+        <li>
+          <a href="./games.html">Games</a>
+        </li>
+        <li>
+          <a href="./mobile.html">Mobile</a>
+        </li>
+        <li>
+          <a href="./tecnologia.html">Tecnologia</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="menu-nav">
+      <ul class="menu">
+        <li>
+          <a href="../index.html">Página principal</a>
+        </li>
+        <li>
+          <a href="./games.html">Games</a>
+        </li>
+        <li>
+          <a href="./mobile.html">Mobile</a>
+        </li>
+        <li>
+          <a href="./tecnologia.html">Tecnologia</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
     <main>
-      <section class="secao">
+      <section class="content">
         <div>
           <h2 class="article-title">Tecnologia</h2>
-
           <figure>
-            <img width="240px" src="../img/tecnologia.jpg" alt="Tecnologia" />
+            
             <figcaption>
               Tecnologia é um termo que se refere ao conjunto de técnicas,
               ferramentas, conhecimentos e processos utilizados para
@@ -62,6 +82,7 @@
               da ciência, com o objetivo de solucionar problemas e atender às
               necessidades humanas
             </figcaption>
+            <img width="500px" src="../img/tecnologia.jpg" alt="Tecnologia" />
           </figure>
         </div>
       </section>
